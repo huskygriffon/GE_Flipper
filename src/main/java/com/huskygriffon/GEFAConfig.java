@@ -4,7 +4,8 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+//Config is the panel that you interact with in Runelite
+@ConfigGroup("GEFAConfig")
 public interface GEFAConfig extends Config
 {
 	@ConfigItem(
