@@ -10,11 +10,11 @@ public interface gefaconfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
-		name = "IDK",
+		name = "Feeling?",
 		description = "The message to show to the user when they login"
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "Fuuuuuuu";
 	}
 }
