@@ -7,7 +7,7 @@ public class PluginLauncher
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(GEFAPlugin.class);
+		ExternalPluginManager.loadBuiltin(gefaplugin.class);
 		RuneLite.main(args);
 	}
 }

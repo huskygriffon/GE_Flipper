@@ -16,13 +16,13 @@ import net.runelite.client.plugins.PluginDescriptor;
 @PluginDescriptor(
 	name = "1GE Flip Assistant" // Name of the plugin within the plugins tab
 )
-public class GEFAPlugin extends Plugin
+public class gefaplugin extends Plugin
 {
 	@Inject
 	private Client client;
 
 	@Inject
-	private GEFAConfig config;
+	private gefaconfig config;
 
 	@Override
 	protected void startUp() throws Exception
@@ -46,8 +46,8 @@ public class GEFAPlugin extends Plugin
 	}
 
 	@Provides
-	GEFAConfig provideConfig(ConfigManager configManager)
+	gefaconfig provideConfig(ConfigManager configManager)
 	{
-		return configManager.getConfig(GEFAConfig.class);
+		return configManager.getConfig(gefaconfig.class);
 	}
 }

@@ -5,8 +5,8 @@ import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 //Config is the panel that you interact with in Runelite
-@ConfigGroup("GEFAConfig")
-public interface GEFAConfig extends Config
+@ConfigGroup("gefaconfig")
+public interface gefaconfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
